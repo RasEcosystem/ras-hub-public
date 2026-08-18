@@ -2,10 +2,17 @@
 
 # RasHub
 
-RasHub — центральный сервис управления Ras Ecosystem.
+RasHub — центральный сервис Ras Ecosystem, объединяющий
+[RasStudio](https://github.com/RasEcosystem/ras-studio) и
+[RasGate](https://github.com/RasEcosystem/ras-gate) для управления
+инфраструктурой RAS 1С:Предприятия.
 
-Он связывает [RasStudio](https://github.com/RasEcosystem/ras-studio) с
-[RasGate](https://github.com/RasEcosystem/ras-gate), предоставляя единый
-API и централизованный доступ к инфраструктуре RAS 1С:Предприятия.
+## 0.1.0
 
-> 🚧 RasHub находится в активной разработке.
+Управление RasGate, синхронизация кластеров RAS, фоновые задачи и мониторинг состояния.
+
+![Главная панель RasHub](docs/images/rashub-home.png)
+
+![Управление RasGate](docs/images/rashub-rasgates.png)
+
+![Мониторинг фоновых задач](docs/images/rashub-tasks.png)
